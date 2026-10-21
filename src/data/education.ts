@@ -14,15 +14,15 @@ export const educationHistory: EducationItem[] = [
     ],
   },
   {
-    degree: "Bachelor of Science in Computer Science (B.Sc. CS)",
-    institution: "University of Mumbai affiliate",
+    degree: "Bachelor of Computer Application (BCA)",
+    institution: "Tilak Maharashtra Vidyapeeth",
     period: "2021 – 2024",
     location: "Mumbai, Maharashtra",
     description:
-      "Foundational computer science education covering data structures, algorithms, operating systems, and object-oriented programming.",
+      "Foundational computer science education covering software development, database management, algorithms, and web programming.",
     highlights: [
-      "Core focus on C++, Java, Python, and SQL fundamentals",
-      "Graduated with First Class distinction in Computer Science",
+      "Core focus on Python, Java, SQL, and Full-Stack Web Development",
+      "Built database applications and data structures implementations",
     ],
   },
 ];

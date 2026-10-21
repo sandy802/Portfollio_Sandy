@@ -1,0 +1,33 @@
+export const siteConfig = {
+  name: "Sandesh Ghule",
+  role: "Freelance Full-Stack Developer",
+  shortBio:
+    "Building fast, reliable web applications and custom admin systems for growing businesses and startups. Based in Mumbai, India.",
+  location: "Mumbai, Maharashtra, India",
+  timezone: "Asia/Kolkata",
+  status: "Available for freelance projects (Q2/Q3)",
+  experienceYears: "3+",
+  projectsCompleted: "12+",
+  clientSatisfaction: "100%",
+  email: "sandeshghule52@gmail.com",
+  phone: "+91 91378 92677",
+  whatsappUrl: "https://wa.me/919137892677?text=Hi%20Sandesh,%20I%20have%20a%20project%20inquiry!",
+  url: "https://sandy-portfolio-navy.vercel.app",
+  github: "https://github.com/sandy802",
+  linkedin: "https://linkedin.com/in/sandesh-ghule-296502227",
+  twitter: "https://twitter.com",
+  navLinks: [
+    { label: "About", href: "#about" },
+    { label: "Services", href: "#services" },
+    { label: "Work", href: "#work" },
+    { label: "Skills", href: "#skills" },
+    { label: "Process", href: "#process" },
+    { label: "Contact", href: "#contact" },
+  ],
+  stats: [
+    { label: "Core Products Shipped", value: "4+" },
+    { label: "Client Satisfaction", value: "100%" },
+    { label: "Response Time", value: "< 24h" },
+    { label: "Based In", value: "Mumbai, IN" },
+  ],
+};

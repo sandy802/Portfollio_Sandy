@@ -45,7 +45,7 @@ export const projects: Project[] = [
   },
   {
     id: "aethel-realty",
-    title: "Aethel Realty Portal",
+    title: "Aethel Realty",
     tagline: "High-performance luxury real estate website with GSAP scroll animations",
     category: "Full-Stack Web App",
     problem:

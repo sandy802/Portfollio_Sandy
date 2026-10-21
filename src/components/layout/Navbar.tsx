@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { siteConfig } from "@/data/siteConfig";
-import { ArrowUpRight, Menu, X, Sparkles } from "lucide-react";
+import { ArrowUpRight, Menu, X, Sparkles, Download } from "lucide-react";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -96,6 +96,18 @@ export default function Navbar() {
                 <span>Available for work</span>
               </div>
 
+              {/* Resume Download */}
+              <a
+                href={siteConfig.resumeUrl}
+                download="Sandesh_Ghule_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-mono text-gray-300 hover:text-white bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.08] hover:border-violet-500/40 transition-all"
+              >
+                <Download className="w-3.5 h-3.5 text-violet-400" />
+                <span>CV</span>
+              </a>
+
               {/* Start Project CTA */}
               <Link
                 href="#contact"
@@ -153,6 +165,18 @@ export default function Navbar() {
             </div>
 
             <div className="flex flex-col gap-3">
+              <a
+                href={siteConfig.resumeUrl}
+                download="Sandesh_Ghule_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white/[0.05] border border-white/[0.08] text-gray-200 font-semibold text-sm hover:text-white"
+              >
+                <Download className="w-4 h-4 text-violet-400" />
+                <span>Download Resume / CV</span>
+              </a>
+
               <Link
                 href="#contact"
                 onClick={() => setMobileMenuOpen(false)}

@@ -15,6 +15,7 @@ export const siteConfig = {
   url: "https://sandy-portfolio-navy.vercel.app",
   github: "https://github.com/sandy802",
   linkedin: "https://linkedin.com/in/sandesh-ghule-296502227",
+  resumeUrl: "/resume.pdf",
   twitter: "https://twitter.com",
   navLinks: [
     { label: "About", href: "#about" },

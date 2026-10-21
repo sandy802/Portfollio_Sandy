@@ -13,6 +13,7 @@ import {
   ExternalLink,
   Award,
   Zap,
+  Download,
 } from "lucide-react";
 
 export default function AboutEducation() {
@@ -83,6 +84,21 @@ export default function AboutEducation() {
                   <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>Direct founder-to-developer comms</span>
                 </div>
+              </div>
+
+              {/* Resume Download Action */}
+              <div className="mt-6 pt-5 border-t border-white/[0.06] flex flex-wrap items-center justify-between gap-3">
+                <a
+                  href={siteConfig.resumeUrl}
+                  download="Sandesh_Ghule_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-white bg-violet-600/30 hover:bg-violet-600 border border-violet-500/40 shadow-lg shadow-violet-600/20 hover:shadow-violet-600/40 transition-all duration-200"
+                >
+                  <Download className="w-3.5 h-3.5 text-violet-300" />
+                  <span>Download Full Resume (PDF)</span>
+                </a>
+                <span className="text-[11px] font-mono text-gray-500">Updated for 2026</span>
               </div>
             </div>
 

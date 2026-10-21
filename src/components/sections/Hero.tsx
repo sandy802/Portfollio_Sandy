@@ -12,6 +12,7 @@ import {
   Database,
   Layers,
   Cpu,
+  Download,
 } from "lucide-react";
 
 export default function Hero() {
@@ -111,6 +112,17 @@ export default function Hero() {
                   (4 Case Studies)
                 </span>
               </Link>
+
+              <a
+                href={siteConfig.resumeUrl}
+                download="Sandesh_Ghule_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full text-sm font-medium text-gray-300 hover:text-white bg-white/[0.04] hover:bg-violet-600/10 border border-white/[0.08] hover:border-violet-500/40 transition-all duration-200 backdrop-blur-md"
+              >
+                <Download className="w-4 h-4 text-violet-400 group-hover:scale-110 transition-transform" />
+                <span>Resume / CV</span>
+              </a>
             </motion.div>
 
             {/* Trust Proof Metrics */}
